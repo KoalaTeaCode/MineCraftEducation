@@ -1,0 +1,19 @@
+{
+  "name": "minecraftcoder",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Keith Holliday <krh121791@yahoo.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "directory" : "public/bower_components",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

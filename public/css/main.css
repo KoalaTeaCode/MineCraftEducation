@@ -1,0 +1,215 @@
+body {
+  font-family: 'Lato';
+  background: #efefef;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  /*color: #fff !important*/
+}
+
+.fa-btn {
+    margin-right: 6px;
+}
+
+.cta-button-wrapper .btn {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.cta-button-wrapper .btn:hover {
+  background: #fff;
+  color: #53BBB4
+}
+
+/* nav */
+
+nav {
+  border-radius: 0px;
+  border: 1px solid #f2f2f2;
+  border-bottom-width: 2px;
+}
+
+nav li a {
+  /*color: #fff !important;*/
+}
+
+/*
+Home Page
+*/
+
+nav.navbar {
+  margin-bottom: 0px;
+  min-height: 90px;
+  background-color: #fff;
+  padding-top: 15px;
+  font-size: 16px;
+}
+
+.main-header {
+  text-align: center;
+  margin-bottom: 50px;
+  min-height: 500px;
+  padding-top: 10%;
+  padding-bottom: 20px;
+  background-image: url('https://static.teamtreehouse.com/assets/views/pages/space-cat/space-cat-video-tn-90845167b98074239272f896f376418d.png');
+  color: #fff;
+}
+
+.main-header h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.main-header h3 {
+  margin-bottom: 30px;
+}
+
+section {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  min-height: 450px;
+}
+
+section#how {
+  min-height: 300px;
+}
+
+section h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*
+How Section
+*/
+section#how .col-md-4 {
+  text-align: center;
+}
+
+.how-icon {
+  background-image:url('http://cdn1.bestpsdfreebies.com/wp-content/uploads/2013/10/ballicons-free-set.jpg');
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  margin:0 auto;
+}
+
+/*
+Cards
+*/
+
+.card {
+  margin-bottom: 60px;
+  color: #3a3a3a;
+  border-bottom: 1px solid #c9c9c9;
+  border-right: 1px solid #e4e4e4;
+  border-left: 1px solid #e4e4e4;
+  border-radius: 4px;
+  text-align: center;
+  height: 350px;
+}
+
+.card-img-container {
+  height: 80%;
+  overflow: hidden;
+}
+
+.card-img-container, .card-image {
+  max-width: 100%;
+}
+
+/* Footer */
+
+footer {
+  background-color: #22262c;
+  color: #fff;
+  min-height: 315px;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+footer svg {
+  width: 50px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul.social li {
+  float: left;
+  color: #fff;
+}
+
+/* Course */
+
+section#intro {
+  background-color: #53BBB4;
+  color: #fff;
+  margin-top: 0px;
+  padding-top: 40px;
+  min-height: 350px;
+  padding-bottom: 20px;
+}
+
+section#videos {
+  min-height: 500px;
+}
+
+.badges {
+  padding-top: 50px;
+}
+
+.badges .col-md-4 {
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.badges img {
+  width: 80px;
+}
+
+.cta-button-wrapper {
+  margin-top: 80px;
+}
+
+.cta-button-wrapper .btn {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.cta-button-wrapper .btn:hover {
+  background: #fff;
+  color: #53BBB4
+}
+
+.video-list-item {
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 20px;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  border-radius: 5px;
+  border: 1px solid #f2f2f2;
+  /*border-left: 80px solid #53BBB4;*/
+  border-bottom-width: 2px;
+}
+
+.video-list-item:hover {
+  background-color: #53BBB4;
+  color: #fff;
+  cursor: pointer;
+  margin-top: -10px;
+}
+
+.video-list-item i {
+  font-size: 24px;
+  color: #444;
+  background: #efefef;
+  border-radius: 50%;
+  padding: 20px;
+  margin-top: 10px;
+}
